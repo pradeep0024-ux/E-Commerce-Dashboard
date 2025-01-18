@@ -1,0 +1,160 @@
+/* .App {
+  text-align: center;
+} */
+/* style start */
+.App {
+  font-family: serif;
+}
+
+.nav li a {
+  text-decoration: none;
+  padding: 7px;
+  color: white;
+}
+
+.nav li {
+  display: block;
+  padding: 6px;
+
+}
+
+.nav {
+  padding: 7px;
+  margin: 0px;
+  background-color: #67bfff;
+}
+
+.header {
+  margin: 25px;
+}
+
+.footer {
+  background-color: #67bfff;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  padding: 7px;
+}
+
+.signup,
+.login,
+.add-product,
+.update-product {
+  margin-left: 30%;
+  margin-top: 50px;
+}
+
+.inputField {
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid #67bfff;
+  border-radius: 8px;
+}
+
+.btn-style {
+  margin: 25px;
+  padding: 7px;
+  width: 145px;
+  background-color: #67bfff;
+  border: 1px solid #67bfff;
+  border-radius: 10px;
+
+}
+.clear-button{
+  margin: -14px;
+    padding: 7px;
+    width: 145px;
+    background-color: #e21a47;
+    border: 1px solid white;
+    color: white;
+    border-radius: 10px;
+}
+
+.card-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(237, 187, 255, 0.6) 0%, rgba(237, 187, 255, 0) 100%);;
+
+}
+.profile-card{
+  border: 1px solid red;
+    width: 600px;
+    margin: auto;
+    height: 400px;
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: hsl(36 0% 96% / 1);;
+}
+.profile{
+  width: 250px;
+  height: 200px;
+  border: 1px solid green;
+}
+.profile img{
+  width: 100%;
+  height: 100%;
+}
+.details{
+  width: 250px;
+    height: 200px;
+    border: 1px solid rgb(194, 16, 16);
+  
+}
+.nav.nav-right {
+  justify-content: flex-end;
+}
+
+.logo-style {
+  width: 43px;
+  float: left;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.invalid-input {
+  margin-top: -25px;
+  margin-left: 25px;
+  color: red;
+  display: block;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.product-list ul li {
+  display: inline-block;
+  padding: 10px;
+  border: 1px solid #67bfff;
+  width: 170px;
+}
+
+.product-list ul {
+  margin: 0px;
+}
+.search-box{
+  width: 250px;
+  margin: 5px;
+  padding: 8px;
+  border: 1px solid #67bfff;
+  border-radius: 5px;
+}
+.delete-icon{
+  color: red;
+    height: 21px;
+    width: 59px;
+    cursor: pointer;
+}
+.user{
+  display: flex;
+  flex-direction: row-reverse;
+}
+/* style end */
