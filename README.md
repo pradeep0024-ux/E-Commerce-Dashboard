@@ -1,4 +1,4 @@
-Project: E-commerce Dashboard
+#Project: E-commerce Dashboard
 Technologies Used: Node.js, React.js
 Description:
 Developed a dynamic and interactive E-commerce dashboard using Node.js for the backend and React.js for the frontend. 
